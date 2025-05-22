@@ -3,7 +3,7 @@ import random
 import telebot
 from telebot import types
 
-API_TOKEN = '7882588394:AAHgd_q-9u7TQDCQMKJ9sPyr3j3jw4qFsjc'  #Замените на токен вашего бота
+API_TOKEN = '123'  #Замените на токен вашего бота
 bot = telebot.TeleBot(API_TOKEN)
 
 MUSIC_DIR = os.path.join(os.path.expanduser('~'), 'Desktop', 'music')  #Путь до музыки (папка на рабочем столе с именим music)
